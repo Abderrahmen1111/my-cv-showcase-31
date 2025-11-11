@@ -4,6 +4,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import CV from "@/components/CV";
 import Contact from "@/components/Contact";
+import Chatbot from "@/components/Chatbot";
 
 const Index = () => {
   return (
@@ -14,6 +15,9 @@ const Index = () => {
       <Projects />
       <CV />
       <Contact />
+      
+      {/* Chatbot */}
+      <Chatbot />
       
       {/* Footer */}
       <footer className="py-6 text-center text-muted-foreground border-t border-border">
