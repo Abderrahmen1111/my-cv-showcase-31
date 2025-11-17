@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -42,7 +42,28 @@ const Contact = () => {
             </div>
           </div>
           
-          <div className="text-center">
+          <div className="flex flex-col items-center gap-6">
+            <div className="flex gap-4">
+              <a 
+                href="https://github.com/Abderrahmen1111" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors"
+                aria-label="GitHub Profile"
+              >
+                <Github className="w-6 h-6 text-primary" />
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/abderrahmen-ebdelli" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors"
+                aria-label="LinkedIn Profile"
+              >
+                <Linkedin className="w-6 h-6 text-primary" />
+              </a>
+            </div>
+            
             <Button 
               onClick={() => window.location.href = 'mailto:abderrahmenebdelli18@gmail.com'}
               className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow"
