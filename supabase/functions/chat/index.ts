@@ -29,8 +29,8 @@ BACKGROUND:
 - Contact: abderrahmenebdelli18@gmail.com, +216 58 730 950
 
 TECHNICAL SKILLS:
-- Languages: C, C++, C#, Python, JavaScript, PHP
-- Web & Frameworks: React, Django, ASP.NET, Bootstrap
+- Languages: C, C++, C#, Python, JavaScript
+- Web & Frameworks: React, Django, FastAPI, ASP.NET, Bootstrap
 - Mobile: Android development, hybrid applications
 - Databases: MySQL, PostgreSQL, PL/SQL, Big Data
 - AI/ML: Machine Learning, NLP, chatbot development
@@ -39,10 +39,10 @@ TECHNICAL SKILLS:
 - Tools: Docker, Git
 
 MAJOR PROJECTS:
-1. Recruithub (2025) - Intelligent HR platform with candidate pre-selection engine using React, PHP, MySQL
-2. MedicalAIService (2025) - Medical AI assistant analyzing symptoms using Python, NLP, PostgreSQL
-3. TalkBridge (2025) - Conversational chatbot for customer support using Node.js, NLP API
-4. Wasalni eBooking (2025) - Car rental platform in Tunisia using React, PHP, MySQL
+1. Recruithub (2025) - Intelligent HR platform with candidate pre-selection engine using React, Django, FastAPI, PostgreSQL
+2. MedicalAIService (2025) - Medical AI assistant analyzing symptoms using React, FastAPI, PostgreSQL
+3. TalkBridge (2025) - Conversational chatbot for customer support using React, Django, PostgreSQL
+4. Wasalni eBooking (2025) - Car rental platform in Tunisia using React, Django, FastAPI, PostgreSQL
 
 EDUCATION:
 - Bachelor's in Software Engineering (LGLSI3)

@@ -14,7 +14,7 @@ const Projects = () => {
       year: "2025",
       image: recruithubImg,
       description: "Web application for recruitment management with an intelligent candidate pre-selection engine",
-      technologies: ["React", "PHP", "MySQL", "PostgreSQL"],
+      technologies: ["React", "Django", "FastAPI", "PostgreSQL"],
       result: "Simplified and automated HR process"
     },
     {
@@ -23,7 +23,7 @@ const Projects = () => {
       year: "2025",
       image: medicalAiImg,
       description: "Virtual assistant capable of analyzing symptoms and providing medical recommendations",
-      technologies: ["Python", "NLP", "PostgreSQL"],
+      technologies: ["React", "FastAPI", "PostgreSQL"],
       result: "Functional prototype for academic demonstration"
     },
     {
@@ -32,7 +32,7 @@ const Projects = () => {
       year: "2025",
       image: talkbridgeImg,
       description: "Interactive chatbot for customer support with automatic request management",
-      technologies: ["JavaScript", "Node.js", "NLP API", "PostgreSQL"],
+      technologies: ["React", "Django", "PostgreSQL"],
       result: "Operational chatbot tested with users"
     },
     {
@@ -41,7 +41,7 @@ const Projects = () => {
       year: "2025",
       image: wasalniImg,
       description: "Website and application for vehicle booking with search, reservation, and payment management",
-      technologies: ["React", "PHP", "MySQL", "PostgreSQL"],
+      technologies: ["React", "Django", "FastAPI", "PostgreSQL"],
       result: "Fast and secure booking application"
     }
   ];
