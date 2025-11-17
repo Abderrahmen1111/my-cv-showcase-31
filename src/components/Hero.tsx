@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Mail, Github, Linkedin } from "lucide-react";
+import { ArrowDown, Mail, Github, Linkedin, Facebook } from "lucide-react";
 import profileImage from "@/assets/profile.png";
 
 const Hero = () => {
@@ -57,6 +57,9 @@ const Hero = () => {
             </a>
             <a href="https://www.linkedin.com/in/abderrahmen-ebdelli" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-colors" aria-label="LinkedIn">
               <Linkedin className="w-6 h-6" />
+            </a>
+            <a href="https://www.facebook.com/abderr.ahmen.780828/" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-colors" aria-label="Facebook">
+              <Facebook className="w-6 h-6" />
             </a>
           </div>
         </div>

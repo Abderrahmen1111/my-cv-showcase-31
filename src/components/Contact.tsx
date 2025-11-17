@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Facebook } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -61,6 +61,15 @@ const Contact = () => {
                 aria-label="LinkedIn Profile"
               >
                 <Linkedin className="w-6 h-6 text-primary" />
+              </a>
+              <a 
+                href="https://www.facebook.com/abderr.ahmen.780828/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors"
+                aria-label="Facebook Profile"
+              >
+                <Facebook className="w-6 h-6 text-primary" />
               </a>
             </div>
             
