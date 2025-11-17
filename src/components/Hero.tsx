@@ -49,13 +49,13 @@ const Hero = () => {
           
           {/* Social Links */}
           <div className="flex gap-6 justify-center mb-12">
-            <a href="mailto:abderrahmenebdelli18@gmail.com" className="text-foreground/70 hover:text-primary transition-colors">
+            <a href="mailto:abderrahmenebdelli18@gmail.com" className="text-foreground/70 hover:text-primary transition-colors" aria-label="Email">
               <Mail className="w-6 h-6" />
             </a>
-            <a href="#" className="text-foreground/70 hover:text-primary transition-colors">
+            <a href="https://github.com/Abderrahmen1111" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-colors" aria-label="GitHub">
               <Github className="w-6 h-6" />
             </a>
-            <a href="#" className="text-foreground/70 hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/abderrahmen-ebdelli" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-colors" aria-label="LinkedIn">
               <Linkedin className="w-6 h-6" />
             </a>
           </div>
