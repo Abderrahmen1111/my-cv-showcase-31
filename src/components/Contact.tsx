@@ -54,7 +54,7 @@ const Contact = () => {
                 <Github className="w-6 h-6 text-primary" />
               </a>
               <a 
-                href="https://www.linkedin.com/in/abderrahmen-ebdelli" 
+                href="https://www.linkedin.com/in/abderrahmen-ebdelli-703ab6346/?locale=fr_FR" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors"
