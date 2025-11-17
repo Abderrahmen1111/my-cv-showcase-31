@@ -33,18 +33,12 @@ const Skills = () => {
     },
     {
       icon: Network,
-      title: "Networks & Systems",
+      title: "Networks & Protocols",
       skills: [
-        { name: "Design", items: "Packet Tracer, Cisco equipment" },
-        { name: "Management", items: "Network services and protocols" }
-      ]
-    },
-    {
-      icon: Cpu,
-      title: "IoT & Connected Systems",
-      skills: [
-        { name: "Hardware", items: "Arduino, connected sensors" },
-        { name: "Embedded", items: "Embedded applications" }
+        { name: "Network Design", items: "Packet Tracer, Cisco equipment" },
+        { name: "Protocols", items: "TCP/IP, HTTP, DNS, DHCP" },
+        { name: "Management", items: "Network services and administration" },
+        { name: "Security", items: "Firewall configuration, VPN" }
       ]
     }
   ];
